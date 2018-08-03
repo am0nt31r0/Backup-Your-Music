@@ -13,7 +13,7 @@ my $year = strftime "%Y", localtime;
 # Files and Directories
 chomp(my $user = `whoami`);
 my $directoryToBackup = "/home/$user/Music";
-my $drive = "/media/$user/SUBSTANCED";
+my $drive = "/media/$user/DRIVE_THAT_CONTAINS_THE_BACKUP";
 my $logFile = "$drive/backup.log";
 
 # New backup filename
